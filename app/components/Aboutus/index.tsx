@@ -17,7 +17,7 @@ const Aboutdata: datatype[] = [
         link: 'Learn more'
     },
     {
-        heading: "Services.",
+        heading: "Painting.",
         imgSrc: "/images/aboutus/painting-removebg-preview.png",
         paragraph: 'Transform your space with Mario Construction’s professional painting services. Whether you’re looking to refresh a single room or revitalize your entire home, our skilled team delivers flawless results with precision and care.',
         link: 'Learn more'
