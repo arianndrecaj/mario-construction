@@ -37,10 +37,10 @@ const Data = () => {
                                 {item.name}
                             </Link>
                         ))}
-                        <div className="mt-4"></div>
-                        <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
-                            Contact Us
-                        </button>
+                        <div className='mt-4'>
+                        <p>Email: <a href="mailto:Avmarjan@gmail.com">Avmarjan@gmail.com</a></p>
+                        <p>Phone: <a href="tel: 586-495-6378">586-495-6378</a></p>
+                    </div>
                         {/* <Contactusform /> */}
                     </div>
                 </div>
