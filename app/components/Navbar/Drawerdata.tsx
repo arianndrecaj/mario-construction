@@ -37,10 +37,24 @@ const Data = () => {
                                 {item.name}
                             </Link>
                         ))}
-                        <div className='mt-4'>
-                        <p>Email: <a href="mailto:Avmarjan@gmail.com">Avmarjan@gmail.com</a></p>
-                        <p>Phone: <a href="tel: 586-495-6378">586-495-6378</a></p>
-                    </div>
+                        <div className="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">
+                            <div className='lg:hidden'>
+                                <button type="button" className='bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded' onClick={openModal}>
+                                    Contact Us
+                                </button>
+                            </div>
+                            <div className='hidden lg:block'>
+                                <p className="text-2xl font-bold text-blue-600">Contact Us</p>
+                                <div className='mt-4 space-y-2'>
+                                    <p className="text-lg font-semibold text-gray-700">
+                                        Email: <a href="mailto:Avmarjan@gmail.com" className="text-blue-500 hover:underline">Avmarjan@gmail.com</a>
+                                    </p>
+                                    <p className="text-lg font-semibold text-gray-700">
+                                        Phone: <a href="tel: 586-495-6378" className="text-blue-500 hover:underline">586-495-6378</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         {/* <Contactusform /> */}
                     </div>
                 </div>
