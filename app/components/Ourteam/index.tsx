@@ -5,7 +5,7 @@ const index = () => {
     return (
         <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 m-32'>
             <h2 className="text-4xl sm:text-65xl font-bold text-center">Our team belives you deserve <br /> only the best.</h2>
-            <h3 className="text-2xl font-medium text-center pt-10 opacity-50">At Mario Construction, we understand that excellence is not an option but a standard. Our dedicated professionals are committed to delivering top-tier service and exceptional results. We strive to exceed your expectations by ensuring that every aspect of your project meets the highest quality standards. Experience the difference with a team that genuinely cares about your success..</h3>
+            <h3 className="text-2xl font-medium text-center pt-10 opacity-50">At Mario Construction, we understand that excellence is not an option but a standard. Our dedicated professionals are committed to delivering top-tier service and exceptional results. We strive to exceed your expectations by ensuring that every aspect of your project meets the highest quality standards. Experience the difference with a team that genuinely cares about your success...</h3>
             <div className='grid grid-cols-1 my-16'>
                 <Image src="/images/team/mario.jpeg" alt="office-image" height={684} width={1296} />
             </div>
